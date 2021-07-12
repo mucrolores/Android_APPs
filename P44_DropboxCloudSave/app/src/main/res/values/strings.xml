@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P44_DropboxCloudSave</string>
+
+    <string name="app_key">5hitpqdqmeyld28</string>
+
+    <string name="Dropbox_SP">Dropbox</string>
+    <string name="Dropbox_SP_AuthToken">AuthToken</string>
+    <string name="Dropbox_SP_TokenTimeTag">LastTokenTimeTag</string>
+</resources>

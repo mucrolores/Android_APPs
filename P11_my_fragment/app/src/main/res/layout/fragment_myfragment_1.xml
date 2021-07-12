@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myfragment_1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/hintText1"
+        android:text="@string/senteceText1"
+        android:layout_alignBottom="@+id/typeText1"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/typeText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:width="100dp"/>
+
+    <TextView
+        android:id="@+id/hintText2"
+        android:text="Sentence2"
+        android:layout_alignBottom="@+id/typeText2"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/typeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/typeText1"
+        android:layout_marginTop="10dp"
+        android:width="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/setbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/typeText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="set"
+        />
+
+</RelativeLayout>

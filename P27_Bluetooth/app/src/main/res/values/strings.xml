@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">P27_Bluetooth</string>
+
+    <string name="on_button_string">turn bluetooth on</string>
+    <string name="setVisible_string">set device visible</string>
+    <string name="list_device_string">list device</string>
+    <string name="off_button_string">turn bluetooth off</string>
+    <string name="connectDevice_text">the connected device</string>
+    <string name="default_text">default</string>
+
+    <string name="send_text">send</string>
+</resources>

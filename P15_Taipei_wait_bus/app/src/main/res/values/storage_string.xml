@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="station_section">
+        <item>台北區域</item>
+        <item>其他區域</item>
+        <item>default</item>
+    </string-array>
+
+    <string-array name="taipei_section">
+        <item>高鐵台北站</item>
+        <item>台北</item>
+        <item>default</item>
+    </string-array>
+
+    <string-array name="other_section">
+        <item>萬華</item>
+        <item>松山</item>
+        <item>高鐵南港站</item>
+        <item>default</item>
+    </string-array>
+</resources>

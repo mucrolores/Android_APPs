@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">P38_PSSTest</string>
+    <string name="scissor">剪刀</string>
+    <string name="stone">石頭</string>
+    <string name="paper">布</string>
+    <string name="computerHand">電腦出拳</string>
+    <string name="defaultString">default</string>
+    <string name="result">結果</string>
+    <string name="checkRecord">查看紀錄</string>
+    <string name="playerHandArrayList">playerHandArrayList</string>
+    <string name="computerHandArrayList">computerHandArrayList</string>
+    <string name="resultArrayList">resultArrayList</string>
+    <string name="totalTimes">totalTimes</string>
+    <string name="winTimes">winTimes</string>
+    <string name="looseTimes">looseTimes</string>
+    <string name="evenTimes">evenTimes</string>
+    <string name="playerHandMapKey">playerHand</string>
+    <string name="computerHandMapKey">computerHand</string>
+    <string name="resultMapKey">result</string>
+</resources>

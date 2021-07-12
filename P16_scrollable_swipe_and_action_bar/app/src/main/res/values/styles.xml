@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+        <!-- Customize your theme here. -->
+    <style name="CustonToolBarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustonpopUpStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/totallyWhite</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+    </style>
+
+</resources>

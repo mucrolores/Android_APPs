@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P19_service</string>
+
+    <string name="start_service_string">啟動 MyService</string>
+    <string name="stop_service_string">停止 MyService</string>
+    <string name="connect_service_string">連結 MyService</string>
+    <string name="disconnect_service_string">斷開 MyService</string>
+    <string name="call_myMethod_string">呼叫 MyService 中的 MyMethod</string>
+</resources>

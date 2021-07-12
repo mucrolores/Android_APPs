@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gameTitle">PSS Game</string>
+    <string name="computerSide">Computer</string>
+    <string name="playerSide">Player</string>
+    <string name="computerResult">computer</string>
+    <string name="gameResult">result</string>
+
+    <string name="winResult">你贏了</string>
+    <string name="evenResult">平手</string>
+    <string name="looseResult">你輸了</string>
+
+    <string name="scissorButton">剪刀</string>
+    <string name="stoneButton">石頭</string>
+    <string name="paperButton">布</string>
+
+    <string name ="boardTxt">記分板</string>
+    <string name="comPointTxt">電腦的分數</string>
+    <string name="playerPointTxt">你的分數</string>
+
+    <string name="gameTimeTxt">總遊戲</string>
+
+
+    <string name="zero">0</string>
+
+
+
+    <string name="gameReset">計分歸零</string>
+
+</resources>

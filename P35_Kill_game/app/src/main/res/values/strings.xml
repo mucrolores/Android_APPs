@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P35_Kill_game</string>
+
+    <string name="get_random">produce</string>
+    <string name="clear_String">Clear</string>
+    <string name="do_nothing">劉咨佑不做事</string>
+    <string name="stupid">劉咨佑78人，不要不輸入數字</string>
+
+    <string name="EdeTextHint">請輸入人數</string>
+</resources>

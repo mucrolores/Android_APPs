@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gameTitle">PSS Game</string>
+    <string name="computerHand">電腦出拳</string>
+    <string name="playerHand">玩家出拳</string>
+
+    <string name="computerResultString">電腦出</string>
+
+    <string name="scissorString">剪刀</string>
+    <string name="stoneString">石頭</string>
+    <string name="paperString">布</string>
+
+    <string name="gameResultString">遊戲結果</string>
+
+    <string name="winString">你贏了</string>
+    <string name="looseString">你輸了</string>
+    <string name="evenString">平手</string>
+
+    <string name="gameCountString">遊戲場次</string>
+    <string name="winCountString">贏的次數</string>
+    <string name="looseCountString">輸的次數</string>
+    <string name="evenCountString">平手次數</string>
+
+    <string name="resetString">遊戲重置</string>
+
+    <string name="zero">0</string>
+
+    <string name="result1String">顯示結果1</string>
+    <string name="result2String">顯示結果2</string>
+    <string name="hideResultString">隱藏結果</string>
+
+    <string name="hiddenString">  </string>
+
+
+</resources>

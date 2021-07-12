@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TaiwanRailway_booking_system</string>
+
+    <string name="DB_Root_name">http://192.168.43.19/taiwan_railway_system/</string>
+</resources>

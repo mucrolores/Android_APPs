@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PSSFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/gameTitleID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/gameTitle"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/computerSideID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="103dp"
+        android:text="@string/computerHand"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/playerSideID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/computerSideID"
+        android:layout_marginEnd="86dp"
+        android:text="@string/playerHand"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/scissorBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginTop="147dp"
+        android:text="@string/scissorString" />
+
+    <Button
+        android:id="@+id/stoneBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/scissorBtnID"
+        android:layout_below="@+id/scissorBtnID"
+        android:text="@string/stoneString" />
+
+    <Button
+        android:id="@+id/paperBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/scissorBtnID"
+        android:layout_below="@+id/stoneBtnID"
+        android:text="@string/paperString" />
+
+    <TextView
+        android:id="@+id/computerResultTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/computerSideID"
+        android:layout_marginTop="203dp"
+        android:text="@string/computerResultString"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gameResultTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp"
+        android:text="@string/gameResultString"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/gameTimeCountTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="133dp"
+        android:layout_marginStart="51dp"
+        android:text="@string/gameCountString" />
+
+    <TextView
+        android:id="@+id/gameTimeCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/gameTimeCountTxtID"
+        android:layout_below="@+id/gameTimeCountTxtID"
+        android:layout_marginTop="-133dp"
+        android:text="@string/zero" />
+
+    <TextView
+        android:id="@+id/winTimeCountTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/gameTimeCountTxtID"
+        android:layout_marginStart="127dp"
+        android:text="@string/winCountString" />
+
+    <TextView
+        android:id="@+id/winTimeCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/winTimeCountTxtID"
+        android:layout_below="@+id/gameTimeCountTxtID"
+        android:layout_marginTop="-133dp"
+        android:text="@string/zero" />
+
+    <TextView
+        android:id="@+id/looseTimeCountTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/gameTimeCountTxtID"
+        android:layout_marginEnd="123dp"
+        android:text="@string/looseCountString" />
+
+    <TextView
+        android:id="@+id/looseTimeCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/looseTimeCountTxtID"
+        android:layout_below="@+id/gameTimeCountTxtID"
+        android:layout_marginTop="-133dp"
+        android:text="@string/zero" />
+
+    <TextView
+        android:id="@+id/evenTimeCountTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/gameTimeCountTxtID"
+        android:layout_marginEnd="49dp"
+        android:text="@string/evenCountString" />
+
+    <TextView
+        android:id="@+id/evenTimeCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/evenTimeCountTxtID"
+        android:layout_below="@+id/gameTimeCountTxtID"
+        android:layout_marginTop="-133dp"
+        android:text="@string/zero" />
+
+    <Button
+        android:id="@+id/resetBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/resetString" />
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P21_ViewPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fragment_1_insideText">this page is Fragment_1</string>
+    <string name="fragment_2_insideText">this page is Fragment_2</string>
+    <string name="fragment_3_insideText">this page is Fragment_3</string>
+    <string name="fragment_4_insideText">this page is Fragment_4</string>
+</resources>
+
+    

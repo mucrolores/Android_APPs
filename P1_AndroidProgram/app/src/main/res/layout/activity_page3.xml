@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page3">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="513dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/checkBox3"
+            android:layout_marginTop="159dp"
+            android:text="@string/chkBox1" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/checkBox1"
+            android:text="@string/chkBox2" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/checkBox2"
+            android:text="@string/chkBox3" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="55dp"
+            android:layout_marginTop="200dp"
+            android:text="Hand In"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="109dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/radGrp"
+            android:layout_marginEnd="80dp"
+            android:text="Check"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="19dp"
+            android:text="TEST"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginTop="112dp"
+            android:text="Result"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="210dp"
+            android:layout_marginStart="126dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="26dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/backButton"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <RadioGroup
+            android:id="@+id/radGrp"
+            android:layout_width="144dp"
+            android:layout_height="83dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/checkBox1"
+            android:layout_marginTop="55dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="43dp">
+
+            <RadioButton
+                android:id="@+id/radioButton_aiMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/person_1" />
+
+            <RadioButton
+                android:id="@+id/radioButton_blouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/person_2" />
+
+            <RadioButton
+                android:id="@+id/radioButton_allWrong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/person_3" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox1"
+            android:layout_alignTop="@+id/button6"
+            android:text="Page 4"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

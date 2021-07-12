@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/gameTitle"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginStart="75dp"
+        android:text="@string/computerSide"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/playerSide"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/comResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="158dp"
+        android:text="@string/computerResult"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/GmResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="207dp"
+        android:text="@string/gameResult"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <Button
+        android:id="@+id/scissorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/scissorButton" />
+
+    <Button
+        android:id="@+id/stoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/scissorButton"
+        android:layout_below="@+id/scissorButton"
+        android:text="@string/stoneButton" />
+
+    <Button
+        android:id="@+id/paperButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/scissorButton"
+        android:layout_below="@+id/stoneButton"
+        android:text="@string/paperButton" />
+
+    <TextView
+        android:id="@+id/comPointID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/plyPointID"
+        android:layout_centerHorizontal="true"
+        android:text="@string/playerPointTxt" />
+
+    <TextView
+        android:id="@+id/plyPointID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="158dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/comPointTxt" />
+
+    <TextView
+        android:id="@+id/plyPID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="26dp"
+        android:text="@string/gameReset" />
+
+    <TextView
+        android:id="@+id/pointID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/GmResult"
+        android:layout_alignTop="@+id/plyPointID"
+        android:text="@string/boardTxt"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/comPID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/plyPointID"
+        android:layout_alignTop="@+id/plyPID"
+        android:text="TextView" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_button_1"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/date_pick_btn_title"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_button_2"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/position_pick_btn_title"
+        app:showAsAction="ifRoom" />
+
+</menu>

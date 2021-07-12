@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P14_Intent</string>
+
+    <string name="typeText">type your data here</string>
+    <string name="typeInt">type your integer here</string>
+
+    <string name="send_data_button">press to send data</string>
+
+    <string name="deliver_string_title">the string sent</string>
+    <string name="deliver_int_title">the int sent is</string>
+
+    <string name="set_text_btn">set the receive data</string>
+</resources>

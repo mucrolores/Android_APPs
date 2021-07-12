@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">台北等公車_測試版</string>
+
+    <string name="test_version_string">測試版本 ver.9.4 test_ver8.7</string>
+
+    <string name="MRT_label">捷運路線圖</string>
+    <string name="stop_point_string">站點上顯示</string>
+    <string-array name="MRT_ticket_string_arr">
+        <item>單程票價(元)</item>
+        <item>刷卡票價(元)</item>
+        <item>優待票價(元)</item>
+        <item>行駛時間(分)</item>
+    </string-array>
+
+    <string name="Taiwan_good_go_label">台灣好行</string>
+    <string name="section_line_default">默認區域線</string>
+    <string name="section_name_default">默認地區</string>
+
+    <string name="alongViewString">沿途景點:</string>
+    <string name="defaultAlongViewString">默認沿途資訊</string>
+
+    <string name="resourcesFromTitle">資料來源:</string>
+    <string name="defaultResourceFrom">默認資料來源</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="section_line_name">
+        <item>礁溪線-A線</item>
+        <item>礁溪換-B線</item>
+        <item>冬山河線</item>
+        <item>龍宮尋寶(東岸)線</item>
+        <item>龍宮尋寶(西岸)線</item>
+    </string-array>
+
+    <string-array name="section_in">
+        <item>宜蘭</item>
+        <item>宜蘭</item>
+        <item>宜蘭</item>
+        <item>基隆</item>
+        <item>基隆</item>
+    </string-array>
+
+    <string-array name="along_view_point">
+        <item>礁溪，佛光大學，跑馬古道</item>
+        <item>湯圍溝，林美石磐，淡江大學(宜蘭)</item>
+        <item>冬山河親水公園，羅動運動公園，羅東林業文化園區</item>
+        <item>基隆廟口夜市，國立海洋科技博物館，原住民文化會館</item>
+        <item>依太e衛浴，情人湖公園，翡翠灣</item>
+    </string-array>
+
+    <string-array name="data_source">
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+
+    </string-array>
+
+    <!-- TrainTimePart                                                                       here                  -->
+
+    <string name="upwardString">上行</string>
+    <string name="downwardString">下行</string>
+    <string name="present_time_string">現在時間</string>
+
+    <string-array name="train_arrive_time">
+        <item>16:42</item>
+        <item>16:46</item>
+        <item>17:02</item>
+        <item>17:11</item>
+        <item>17:21</item>
+        <item>17:31</item>
+    </string-array>
+
+    <string-array name="train_code">
+        <item>834</item>
+        <item>663</item>
+        <item>654</item>
+        <item>854</item>
+        <item>667</item>
+        <item>149</item>
+    </string-array>
+
+    <string-array name="start_to_destination">
+        <item>左營-南港</item>
+        <item>南港-左營</item>
+        <item>左營-南港</item>
+        <item>南港-左營</item>
+        <item>南港-左營</item>
+        <item>南港-左營</item>
+    </string-array>
+
+    <string-array name="mid_stop">
+        <item>左營，台南，嘉義，雲林，彰化，苗栗，新竹，桃園，板橋，台北，南港</item>
+        <item>左營，台南，嘉義，雲林，彰化，苗栗，新竹，桃園，板橋，台北，南港</item>
+        <item>左營，台南，嘉義，雲林，彰化，苗栗，新竹，桃園，板橋，台北，南港</item>
+        <item>左營，台南，嘉義，雲林，彰化，苗栗，新竹，桃園，板橋，台北，南港</item>
+        <item>左營，台南，嘉義，雲林，彰化，苗栗，新竹，桃園，板橋，台北，南港</item>
+        <item>左營，台南，嘉義，雲林，彰化，苗栗，新竹，桃園，板橋，台北，南港</item>
+    </string-array>
+
+    <string-array name="train_style">
+        <item>站</item>
+        <item>跳</item>
+        <item>跳</item>
+        <item>站</item>
+        <item>跳</item>
+        <item>直</item>
+
+    </string-array>
+
+    <string-array name="up_down_record">
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="date_pick_btn_title">date_pick_btn_title</string>
+    <string name="position_pick_btn_title">position_pick_btn_title</string>
+
+    <string name="bus_track_activity_title">公車追蹤</string>
+
+    <string name="add_track_bus_title">add_bus_track</string>
+    <string name="sort_bus_order_title">sort_bus</string>
+
+    <string name="bus_track_dialog_title_text">新增追蹤公車</string>
+    <string name="storage_string">儲存</string>
+    <string name="cancel_string">取消</string>
+
+    <string name="bus_name_hint_string">別名</string>
+    <string name="bus_number_hint_string">車牌號碼</string>
+
+</resources>

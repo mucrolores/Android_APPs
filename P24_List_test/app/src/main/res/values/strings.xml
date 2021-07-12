@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">P24_List_test</string>
+
+    <string-array name="section_line_name">
+        <item>礁溪線-A線</item>
+        <item>礁溪換-B線</item>
+        <item>冬山河線</item>
+        <item>龍宮尋寶(東岸)線</item>
+        <item>龍宮尋寶(西岸)線</item>
+    </string-array>
+
+    <string-array name="section_in">
+        <item>宜蘭</item>
+        <item>宜蘭</item>
+        <item>宜蘭</item>
+        <item>基隆</item>
+        <item>基隆</item>
+    </string-array>
+
+    <string-array name="along_view_point">
+        <item>礁溪，佛光大學，跑馬古道</item>
+        <item>湯圍溝，林美石磐，淡江大學(宜蘭)</item>
+        <item>冬山河親水公園，羅動運動公園，羅東林業文化園區</item>
+        <item>基隆廟口夜市，國立海洋科技博物館，原住民文化會館</item>
+        <item>依太e衛浴，情人湖公園，翡翠灣</item>
+    </string-array>
+
+    <string-array name="data_source">
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+        <item>交通部觀光局</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

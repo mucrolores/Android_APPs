@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P18_Broadcast</string>
+
+    <string name="registText">註冊broadCastReceiver</string>
+    <string name="unregist">註銷broadCastReceiver</string>
+
+    <string name="publishBroadCast1">傳送my_BroadCast_1</string>
+    <string name="publishBroadCast2">傳送my_BroadCast_2</string>
+</resources>

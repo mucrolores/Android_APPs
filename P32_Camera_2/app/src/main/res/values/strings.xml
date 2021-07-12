@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P32_Camera_2</string>
+
+    <string name="take_picture">shot</string>
+    <string name="switch_fb_string">switch</string>
+    <string name="picture_capture_success_string">picture_capture_success</string>
+</resources>

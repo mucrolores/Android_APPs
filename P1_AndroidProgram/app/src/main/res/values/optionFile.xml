@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="optionList">
+    <item>option_1</item>
+    <item>option_2</item>
+</string-array>
+    <string name="optionList_Name">請選擇</string>
+
+    <string name="backButton">GoBack</string>
+    <string name="setBut">set</string>
+    <string name="goP3">Next page</string>
+
+    <string name="person_1">LUL</string>
+    <string name="person_2">LOL</string>
+    <string name="person_3">XD</string>
+
+    <string name="meal_Taken">今天已經吃過：</string>
+    <string name="chkBox1">早餐</string>
+    <string name="chkBox2">午餐</string>
+    <string name="chkBox3">晚餐</string>
+
+
+    <string name="Max_Set">設定最大值</string>
+    <string name="min_Set">設定最小值</string>
+
+    <string name="randProdue">產生亂數</string>
+
+
+</resources>

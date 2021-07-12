@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="seek_bar_progress">seekBar的progress值</string>
+    <string name="rating_bar_value">RatingBar的value值</string>
+    <string name="rating_bar_progress">ratingBar的progress值</string>
+
+</resources>

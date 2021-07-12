@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">P26_Alert_dialog</string>
+
+    <string name="edt_name_hint">別名</string>
+    <string name="edt_bus_num_hint">車牌號碼</string>
+
+    <string name="cancel_string">取消</string>
+    <string name="confirm_string">確認</string>
+
+    <string name="cancel_toast_massage">資料輸入取消</string>
+    <string name="confirm_toast_message">資料輸入成功</string>
+
+    <string name="date_picker_string">date_pick_open</string>
+    <string name="time_picker_string">time_picker_open</string>
+</resources>

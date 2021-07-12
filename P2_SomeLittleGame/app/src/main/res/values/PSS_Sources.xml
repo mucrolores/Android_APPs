@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GameName">猜拳遊戲</string>
+    <string name="siTxt">剪刀</string>
+    <string name="stoneTxt">石頭</string>
+    <string name="paperTxt">布</string>
+    <string name="winTxt">贏</string>
+    <string name="evenTxt">平手</string>
+    <string name="looseTxt">輸</string>
+</resources>

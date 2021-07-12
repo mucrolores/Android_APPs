@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/registBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/registText"/>
+
+        <Button
+            android:id="@+id/unregistBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unregist"/>
+
+        <Button
+            android:id="@+id/publisBroadCast1Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/publishBroadCast1"/>
+
+        <Button
+            android:id="@+id/publisBroadCast2Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/publishBroadCast2"/>
+
+    </LinearLayout>
+</LinearLayout>

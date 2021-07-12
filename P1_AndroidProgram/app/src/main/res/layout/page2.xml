@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2Activity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginTop="61dp"
+            android:entries="@array/optionList"
+            android:prompt="@string/optionList_Name"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="24dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="27dp"
+            android:layout_marginEnd="28dp"
+            android:text="@string/backButton"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignEnd="@+id/spinner"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="96dp"
+            android:text="@string/setBut"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="128dp"
+            android:text="Page3"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

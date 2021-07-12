@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BtOnButton_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/on_button_string"
+        />
+
+    <Button
+        android:id="@+id/BtOffButton_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/off_button_string"/>
+
+    <Button
+        android:id="@+id/DeviceVisible_Button_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/setVisible_string"
+        />
+
+    <Button
+        android:id="@+id/ListDeviceButton_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/list_device_string"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/connectDevice_text"
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/connectedDev_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/typeIntText_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="type here" />
+
+    <Button
+        android:id="@+id/sendTextBtn_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/send_text" />
+
+    <TextView
+        android:id="@+id/receive_text_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/default_text" />
+</LinearLayout>

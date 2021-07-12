@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">P17_Intent_2</string>
+
+    <string name="act1ButtonText">press to open page 2</string>
+
+    <string name="defaultText">default</string>
+
+    <string name="receiveStringText">the received string is</string>
+    <string name="receiveIntText">the receive int is</string>
+
+    <string name="errorText">error</string>
+
+    <string name="typeStringText">type your string here</string>
+    <string name="typeIntText">type your int here</string>
+
+    <string name="cancelText">cancel the data</string>
+    <string name="checkText">check and send Data</string>
+</resources>

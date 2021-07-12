@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/track_bus_menu_button_1"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add_track_bus_title"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/track_bus_menu_button_2"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/position_pick_btn_title"
+        app:showAsAction="ifRoom" />
+
+</menu>

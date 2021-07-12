@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameCount">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/totalID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="107dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/gameTimeTxt" />
+
+    <TextView
+        android:id="@+id/totalCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/totalID"
+        android:layout_below="@+id/totalID"
+        android:layout_marginTop="-107dp"
+        android:text="@string/zero" />
+
+    <TextView
+        android:id="@+id/winID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/totalID"
+        android:layout_marginStart="123dp"
+        android:text="@string/winTimeTxt" />
+
+    <TextView
+        android:id="@+id/winCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/winID"
+        android:layout_below="@+id/totalID"
+        android:layout_marginTop="-107dp"
+        android:text="@string/zero" />
+
+    <TextView
+        android:id="@+id/looseID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/totalID"
+        android:layout_marginEnd="132dp"
+        android:text="@string/looseTimeTxt" />
+
+    <TextView
+        android:id="@+id/looseCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/looseID"
+        android:layout_below="@+id/totalID"
+        android:layout_marginTop="-107dp"
+        android:text="@string/zero" />
+
+    <TextView
+        android:id="@+id/evenID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/totalID"
+        android:layout_marginEnd="59dp"
+        android:text="@string/evenTimeTxt" />
+
+    <TextView
+        android:id="@+id/evenCountID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/evenID"
+        android:layout_below="@+id/totalID"
+        android:layout_marginTop="-107dp"
+        android:text="@string/zero" />
+</RelativeLayout>
